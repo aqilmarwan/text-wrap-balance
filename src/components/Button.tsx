@@ -35,7 +35,7 @@ const Button = () => {
                         {isChecked ? <span className="text-blue-600"> Balanced </span> : <span className="text-red-600"> Unbalanced </span>}
                         Text
                     </h2>
-                    <h5 className="max-w-4xl break-normal items-center text-md font-extralight md:text-md lg:text-md">
+                    <h5 className="max-w-4xl break-normal items-center text-md font-light md:text-md lg:text-md">
                         {isChecked ?
                             <p className='h5-with-balance'>Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to
                                 mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine
