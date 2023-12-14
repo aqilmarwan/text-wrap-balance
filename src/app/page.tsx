@@ -2,8 +2,18 @@
 export default function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-lg lg:flex">
-        CSS Text Balancing with text-wrap:balance
+      <div className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
+        <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
+          CSS Text Balancing with <span className="text-blue-600">text-wrap:balance</span>
+        </h1>
+        <p className="mt-5 max-w-prose text-zinc-400 sm:text-lg">
+          An innovative CSS feature designed to enhance text equilibrium,
+          providing a revolutionary solution for optimizing the balance
+          and visual appeal of textual content on digital interfaces.
+          This feature within Cascading Style Sheets (CSS) transformative
+          approach is to achieving to achieving optimal text balance for
+          an enhanced and aesthetically pleasing user experience.
+        </p>
       </div>
     </main>
   )
