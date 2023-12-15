@@ -29,13 +29,13 @@ const Button = () => {
                     ></div>
                 </div>
             </label>
-            <div className='flex flex-row mt-10 items-center justify-center text-center'>
+            <div className='flex flex-row mt-10 mb-10 items-center justify-center text-center'>
                 <div className='items-center justify-center'>
-                    <h2 className="mb-6 max-w-4xl text-3xl font-bold md:text-3xl lg:text-3xl">
+                    <h2 className="mb-6 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
                         {isChecked ? <span className="text-blue-600"> Balanced </span> : <span className="text-red-600"> Unbalanced </span>}
                         Text
                     </h2>
-                    <h5 className="max-w-4xl break-normal items-center text-md font-light md:text-md lg:text-md">
+                    <h5 className="max-w-3xl text-md font-normal md:text-md lg:text-md">
                         {isChecked ?
                             <p className='h5-with-balance'>Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to
                                 mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine

@@ -29,13 +29,12 @@ body {
 /* Styles for h5 without text-wrap: balance */
 h5 {
   font-size: 1.5rem;
-  font-weight: bold;
   margin-bottom: 1rem;
-  /* Add any other styles as needed */
 }
 
 /* Styles for h5 with text-wrap: balance */
 .h5-with-balance {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
   text-wrap: balance;
-  /* Add any specific styles for h5 with text-wrap: balance */
 }
