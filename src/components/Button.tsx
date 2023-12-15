@@ -11,6 +11,9 @@ const Button = () => {
 
     return (
         <div className='flex flex-col items-center'>
+            <div className='mt-2 mb-2 font-mono text-slate-600'>
+                Toggle to balance the text. <span aria-hidden="true">&rarr;</span>
+            </div>
             <label className='flex cursor-pointer select-none items-center'>
                 <div className='relative'>
                     <input
