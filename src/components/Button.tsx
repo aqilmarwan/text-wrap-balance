@@ -41,26 +41,18 @@ const Button = () => {
             <div className='flex flex-row cursor-pointer items-center relative'>
                 <div className='p-4'>
                     <Menubar>
-                        <button onClick={handleAutoChange}>
-                            <MenubarMenu>
-                                <MenubarTrigger >auto</MenubarTrigger>
-                            </MenubarMenu>
-                        </button>
-                        <button onClick={handleBalanceChange}>
-                            <MenubarMenu>
-                                <MenubarTrigger >balance</MenubarTrigger>
-                            </MenubarMenu>
-                        </button>
-                        <button onClick={handleStableChange}>
-                            <MenubarMenu>
-                                <MenubarTrigger >stable</MenubarTrigger>
-                            </MenubarMenu>
-                        </button>
-                        <button onClick={handlePrettyChange}>
-                            <MenubarMenu>
-                                <MenubarTrigger >pretty</MenubarTrigger>
-                            </MenubarMenu>
-                        </button>
+                        <MenubarMenu>
+                            <MenubarTrigger >auto</MenubarTrigger>
+                        </MenubarMenu>
+                        <MenubarMenu>
+                            <MenubarTrigger >balance</MenubarTrigger>
+                        </MenubarMenu>
+                        <MenubarMenu>
+                            <MenubarTrigger >stable</MenubarTrigger>
+                        </MenubarMenu>
+                        <MenubarMenu>
+                            <MenubarTrigger >pretty</MenubarTrigger>
+                        </MenubarMenu>
                     </Menubar>
                 </div>
                 <div className='p-4'>
