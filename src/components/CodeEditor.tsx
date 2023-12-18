@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useState } from 'react';
 import MonacoEditor from '@monaco-editor/react'
 
 export default function CodeEditor() {
@@ -12,9 +12,12 @@ export default function CodeEditor() {
                 </h2>
             </div>
             <MonacoEditor
+                className="monaco-editor mb-12"
                 height="40vh"
                 width="40%"
-                theme="vs-dark" />
+                theme="vs-dark"
+                language="typescript"
+            />
         </div>
-    )
+    );
 }

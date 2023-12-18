@@ -40,20 +40,20 @@ const Button = () => {
             </div>
             <div className='flex flex-row cursor-pointer items-center relative'>
                 <div className='p-4'>
-                    <Menubar>
-                        <MenubarMenu>
-                            <MenubarTrigger >auto</MenubarTrigger>
-                        </MenubarMenu>
-                        <MenubarMenu>
-                            <MenubarTrigger >balance</MenubarTrigger>
-                        </MenubarMenu>
-                        <MenubarMenu>
-                            <MenubarTrigger >stable</MenubarTrigger>
-                        </MenubarMenu>
-                        <MenubarMenu>
-                            <MenubarTrigger >pretty</MenubarTrigger>
-                        </MenubarMenu>
-                    </Menubar>
+                    <div className="inline-flex rounded-md shadow-sm" role="group">
+                        <button type="button" onClick={handleAutoChange} className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-s-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+                            auto
+                        </button>
+                        <button type="button" onClick={handleBalanceChange} className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border-t border-r border-b border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+                            balance
+                        </button>
+                        <button type="button" onClick={handleStableChange} className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border-t border-b border-gray-900 hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+                            stable
+                        </button>
+                        <button type="button" onClick={handlePrettyChange} className="px-4 py-2 text-sm font-medium text-gray-900 bg-transparent border border-gray-900 rounded-e-lg hover:bg-gray-900 hover:text-white focus:z-10 focus:ring-2 focus:ring-gray-500 focus:bg-gray-900 focus:text-white dark:border-white dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:bg-gray-700">
+                            pretty
+                        </button>
+                    </div>
                 </div>
                 <div className='p-4'>
                     <Link href="#" className={buttonVariants({ variant: "destructive" })}>RESET</Link>
@@ -67,7 +67,7 @@ const Button = () => {
                     </h2>
                     <>
                         <h5 className="max-w-3xl text-md font-medium md:text-md lg:text-md">
-                            <p className='h5-with-auto'>Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to
+                            <p className='h5-with-pretty'>Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to
                                 mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine
                                 learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and
                                 speech recognition to personalized recommendations.
