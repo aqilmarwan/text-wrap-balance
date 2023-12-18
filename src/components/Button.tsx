@@ -59,10 +59,10 @@ const Button = () => {
                     <Link href="#" className={buttonVariants({ variant: "destructive" })}>RESET</Link>
                 </div>
             </div>
-            <div className='flex flex-row mt-10 mb-10 items-center justify-center text-center'>
+            <div className='flex flex-row mt-5 mb-5 items-center justify-center text-center'>
                 <div className='items-center justify-center'>
                     <h2 className="mb-6 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
-                        <span className="text-blue-600"> Auto </span> : <span className="text-red-600"> Unbalanced </span>
+                        <span className="font-mono font-light text-green-600"> balance </span>
                         Text
                     </h2>
                     <>

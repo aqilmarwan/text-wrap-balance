@@ -1,4 +1,3 @@
-import Button from '@/components/Button'
 
 export default function HomePage() {
   return (
@@ -7,7 +6,7 @@ export default function HomePage() {
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
           CSS Text Balancing with <span className="font-mono text-blue-600">'text-wrap:balance'</span>
         </h1>
-        <p className="mt-5 mb-5 max-w-prose text-zinc-400 sm:text-lg">
+        <p className="mt-5 max-w-prose text-zinc-400 sm:text-lg">
           An innovative CSS feature designed to enhance text equilibrium,
           providing a revolutionary solution for optimizing the balance
           and visual appeal of textual content on digital interfaces.
@@ -15,9 +14,6 @@ export default function HomePage() {
           approach is to achieve optimal text balance for
           an enhanced and aesthetically pleasing user experience.
         </p>
-      </div>
-      <div>
-        <Button />
       </div>
     </main>
   )
