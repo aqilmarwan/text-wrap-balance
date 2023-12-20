@@ -21,11 +21,30 @@ const Button = () => {
     );
 
     const monacoEditorStyles: Record<string, string> = {
-        default: '.h5 { font-size: 1.25rem; margin-bottom: 1rem;}',
-        auto: '.h5-with-auto { font-size: 1.25rem; margin-bottom: 1rem;text-wrap: auto;}',
-        balance: '.h5-with-balance { font-size: 1.25rem; margin-bottom: 1rem;text-wrap: balance;}',
-        stable: '.h5-with-stable { font-size: 1.25rem; margin-bottom: 1rem;text-wrap: stable;}',
-        pretty: '.h5-with-pretty { font-size: 1.25rem; margin-bottom: 1rem;text-wrap: pretty;}',
+        default: `.h5 {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        }`,
+        auto: `.h5-with-auto {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        text-wrap: auto;
+        }`,
+        balance: `.h5-with-balance {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        text-wrap: balance;
+        }`,
+        stable: `.h5-with-stable {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        text-wrap: stable;
+        }`,
+        pretty: `.h5-with-pretty {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+        text-wrap: pretty;
+        }`,
     };
 
     useEffect(() => {
