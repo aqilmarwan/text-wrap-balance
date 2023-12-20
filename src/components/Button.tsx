@@ -52,6 +52,8 @@ const Button = () => {
         // For example, you can reload the editor by changing its key prop
     }, [textWrapStyle]);
 
+    const formattedCSS = textWrapStyle ? monacoEditorStyles[textWrapStyle] : monacoEditorStyles.default;
+
     return (
         <div className='flex flex-col items-center'>
             <div className='mt-2 mb-2 font-mono text-slate-600'>
@@ -124,24 +126,42 @@ const Button = () => {
             <>
                 {textWrapStyle && (
                     <MonacoEditor
-                        key={monacoEditorStyles[textWrapStyle]} // Ensure key change triggers a reload
+                        key={monacoEditorStyles[textWrapStyle]}
                         className="monaco-editor mb-12"
                         height="40vh"
                         width="40%"
                         theme="vs-dark"
-                        language="typescript"
+                        language="css"
                         defaultValue={monacoEditorStyles[textWrapStyle]}
+                        options={{
+                            minimap: { enabled: false }, // Disable minimap if you want
+                            scrollBeyondLastLine: false,  // Disable scrolling beyond the last line
+                            wordWrap: 'on',  // Enable word wrap
+                            lineNumbers: 'on', // Enable line numbers
+                            glyphMargin: false, // Disable the glyph margin (squiggly lines)
+                            contextmenu: false, // Disable the context menu
+                            rulers: [], // Disable rulers
+                        }}
                     />
                 )}
                 {(!textWrapStyle || textWrapStyle === 'default') && (
                     <MonacoEditor
-                        key={monacoEditorStyles.default} // Ensure key change triggers a reload
+                        key={monacoEditorStyles.default}
                         className="monaco-editor mb-12"
                         height="40vh"
                         width="40%"
                         theme="vs-dark"
-                        language="typescript"
+                        language="css"
                         defaultValue={monacoEditorStyles.default}
+                        options={{
+                            minimap: { enabled: false }, // Disable minimap if you want
+                            scrollBeyondLastLine: false,  // Disable scrolling beyond the last line
+                            wordWrap: 'on',  // Enable word wrap
+                            lineNumbers: 'on', // Enable line numbers
+                            glyphMargin: false, // Disable the glyph margin (squiggly lines)
+                            contextmenu: false, // Disable the context menu
+                            rulers: [], // Disable rulers
+                        }}
                     />
                 )}
             </>
