@@ -91,28 +91,23 @@ const Button = () => {
                         <h5 className="max-w-3xl text-md font-medium md:text-md lg:text-md">
                             {textWrapStyle === 'auto' && (
                                 <p className='h5-with-auto'>
-                                    Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and speech recognition to personalized recommendations.
-                                </p>
+                                    AI is revolutionizing technology, allowing machines to emulate human intelligence in learning, problem-solving, and decision-making. Through advanced algorithms and machine learning, AI excels at recognizing patterns, including image and speech recognition, and providing personalized recommendations.                                </p>
                             )}
                             {textWrapStyle === 'balance' && (
                                 <p className='h5-with-balance'>
-                                    Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and speech recognition to personalized recommendations.
-                                </p>
+                                    AI is revolutionizing technology, allowing machines to emulate human intelligence in learning, problem-solving, and decision-making. Through advanced algorithms and machine learning, AI excels at recognizing patterns, including image and speech recognition, and providing personalized recommendations.                                </p>
                             )}
                             {textWrapStyle === 'stable' && (
                                 <p className='h5-with-stable'>
-                                    Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and speech recognition to personalized recommendations.
-                                </p>
+                                    AI is revolutionizing technology, allowing machines to emulate human intelligence in learning, problem-solving, and decision-making. Through advanced algorithms and machine learning, AI excels at recognizing patterns, including image and speech recognition, and providing personalized recommendations.                                </p>
                             )}
                             {textWrapStyle === 'pretty' && (
                                 <p className='h5-with-pretty'>
-                                    Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and speech recognition to personalized recommendations.
-                                </p>
+                                    AI is revolutionizing technology, allowing machines to emulate human intelligence in learning, problem-solving, and decision-making. Through advanced algorithms and machine learning, AI excels at recognizing patterns, including image and speech recognition, and providing personalized recommendations.                                </p>
                             )}
                             {!textWrapStyle && (
                                 <p className='h5'>
-                                    Artificial Intelligence (AI) stands as a transformative frontier in technology, enabling machines to mimic human intelligence in tasks like learning, problem-solving, and decision-making. With machine learning and sophisticated algorithms, AI has become adept at recognizing patterns, from image and speech recognition to personalized recommendations.
-                                </p>
+                                    AI is revolutionizing technology, allowing machines to emulate human intelligence in learning, problem-solving, and decision-making. Through advanced algorithms and machine learning, AI excels at recognizing patterns, including image and speech recognition, and providing personalized recommendations.                                </p>
                             )}
                         </h5>
                     </>
