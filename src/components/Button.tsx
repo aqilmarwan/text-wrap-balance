@@ -76,9 +76,9 @@ const Button = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row mt-5 mb-5 items-center justify-center text-center'>
+            <div className='flex flex-row mt-6 mb-5 items-center justify-center text-center'>
                 <div className='items-center justify-center'>
-                    <h2 className="mb-6 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
+                    <h2 className="mb-3 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
                         {currentStyle && (
                             <span className={`font-mono font-light text-green-600`}>{currentStyle}</span>
                         )}
@@ -110,8 +110,8 @@ const Button = () => {
                     </>
                 </div>
             </div>
-            <div className='mt-5 mb-5 items-center justify-center text-center'>
-                <h2 className="mb-6 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
+            <div className='mt-6 mb-5 items-center justify-center text-center'>
+                <h2 className="mb-3 max-w-4xl text-3xl font-semibold md:text-3xl lg:text-3xl">
                     CSS Syntax
                 </h2>
             </div>
