@@ -2,7 +2,7 @@
 export default function HomePage() {
   return (
     <main className="flex flex-col items-center justify-between">
-      <div className="mb-12 mt-28 sm:mt-40 flex flex-col items-center justify-center text-center">
+      <div className="mb-16 mt-14 sm:mt-20 flex flex-col items-center justify-center text-center">
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
           CSS Text Balancing with <span className="font-mono text-blue-600">'text-wrap:balance'</span>
         </h1>
