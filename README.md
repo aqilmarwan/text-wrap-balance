@@ -3,7 +3,7 @@ This project is a live working showcase of `text-wrap: style` properties that de
 
 ---
 
-Important Note: The flexible illustration of the text layout doesn't work on Chrome & Edge.
+Important Note: The flexible illustration of the text layout will not work on Chrome & Edge.
 
 ---
 
